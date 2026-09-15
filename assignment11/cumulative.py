@@ -29,7 +29,7 @@ try:
         print()
         df.info()
         
-        plt.plot(df['order_id'], df['cumulative'])
+        df.plot.line('order_id', 'cumulative')
         plt.xlabel("Order ID")
         plt.ylabel("Cumulative Revenue")
         plt.title("Cumulative Revenue vs. Order ID")

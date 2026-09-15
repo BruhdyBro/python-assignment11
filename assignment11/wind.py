@@ -5,11 +5,12 @@ import pandas as pd
 
 df = pldata.wind(return_type='pandas')
 
-print(df.head(20))
+print(df.head(10))
+print(df.tail(10))
 
 df['strength'] = df['strength'].str.replace(r"\D", ".", regex=True)
 
-pd.to_numeric(df['strength'], errors='coerce')
+df['strength'] = pd.to_numeric(df['strength'], errors='coerce')
 
 
 fig = px.scatter(df, x='strength', y='frequency', color='direction',

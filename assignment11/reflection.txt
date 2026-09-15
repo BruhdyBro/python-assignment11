@@ -1,10 +1,10 @@
-1. Reflect on the differences between static and interactie visualizations
+1. Reflect on the differences between static and interactive visualizations
 Static visualizations force the viewer to look at the data in only one specific way: from the top level. This means that every point is
 shown and can't be directly focused in on. Interactive visualizations allow the viewer to change how they view the data, being able to
 access it directly while still being able to display the rest of the information effectively. There are also more ways to customize the
 aesthetics of this data in interactive visualizations.
 
-2. Write a short paragraph discussing the advantages of using dashboards for realtime data exploration
+2. Write a short paragraph discussing the advantages of using dashboards for real-time data exploration
 Dashboards allow for easy organizing and representation of data. Dashboards can also be interactive, creating engagement for those 
 viewing the data and encouraging them to explore and inquire about the data. Another advantage of dashboards is that they are simple to 
 setup, making it quick to organize the information that you want to display. 

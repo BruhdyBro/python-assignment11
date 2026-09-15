@@ -24,7 +24,7 @@ try:
 
         df = pd.read_sql_query(sql_statement, conn)
 
-        plt.bar(df['last_name'], df['revenue'], color=['green','orange'], width=0.75)
+        df.plot.bar('last_name', 'revenue', color=['green','orange'])
         plt.xlabel("Employee Last Name")
         plt.ylabel("Revenue")
         plt.title("Revenue by Employee")
